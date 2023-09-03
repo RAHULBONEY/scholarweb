@@ -1,0 +1,86 @@
+@font-face {
+    font-family: ka;
+    src: url(Oswald-VariableFont_wght.ttf);
+    font-weight: normal;
+}
+@font-face {
+    font-family: jw;
+    src: url(ArchivoNarrow-VariableFont_wght.ttf);
+    font-weight: normal;
+}
+*{
+    box-sizing: border-box;
+    color: black;
+
+
+}
+.cat{
+    text-align: center;
+    font-size: 3em;
+    font-family: ka;
+    color:white;
+    margin:0;
+}
+.catsize{
+    font-size: 4em;
+}
+.nav li{
+    display: inline;
+    text-decoration: none;
+}
+.main-header{
+    background-color:rgba(255,255, 255, .3);
+    background-image: url("back.png");
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 6px;
+    }
+    .connav a{
+        text-decoration: none;
+        text-align: center;
+
+    }
+    .content{
+        font-family: jw;
+        font-size: 1.3em;
+        font-weight: normal;
+        margin: 1.2em;
+    }
+    .contentr{
+        font-family: jw;
+        font-size: 1.3em;
+        font-weight: normal;
+        margin: 1.2em;
+    }
+    .contentb{
+        font-family: jw;
+        font-size: 1.3em;
+        font-weight: normal;
+        margin: 1.2em;
+
+    }
+    .contentm{
+        font-family: jw;
+        font-size: 1.3em;
+        font-weight: normal;
+        margin: 1.2em;
+
+    }
+    .contente{
+        font-family: jw;
+        font-size: 1.3em;
+        font-weight: normal;
+        margin: 1.2em;
+
+    }
+    .connav li{
+        text-align: center;
+        padding: 0em;;
+    }
+    
+    .connav img{
+        float:right;
+      border-radius: 50%;
+      padding:1.1em;
+    }
+    
