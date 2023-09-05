@@ -24,63 +24,167 @@
 .catsize{
     font-size: 4em;
 }
-.nav li{
-    display: inline;
-    text-decoration: none;
+.sel{
+    text-align: center;
+    color:black;
+    font-family: ka;
+    text-decoration: solid;
+    padding: 0em;
 }
+
+
 .main-header{
     background-color:rgba(255,255, 255, .3);
     background-image: url("back.png");
     background-blend-mode: multiply;
     background-size: cover;
     padding-bottom: 6px;
+    text-align: left;
+    text-decoration-color: black;
+    display: block;
+    text-decoration: none;
     }
-    .connav a{
-        text-decoration: none;
-        text-align: center;
-
-    }
-    .content{
-        font-family: jw;
-        font-size: 1.3em;
-        font-weight: normal;
-        margin: 1.2em;
-    }
-    .contentr{
-        font-family: jw;
-        font-size: 1.3em;
-        font-weight: normal;
-        margin: 1.2em;
-    }
-    .contentb{
-        font-family: jw;
-        font-size: 1.3em;
-        font-weight: normal;
-        margin: 1.2em;
-
-    }
-    .contentm{
-        font-family: jw;
-        font-size: 1.3em;
-        font-weight: normal;
-        margin: 1.2em;
-
-    }
-    .contente{
-        font-family: jw;
-        font-size: 1.3em;
-        font-weight: normal;
-        margin: 1.2em;
-
-    }
-    .connav li{
-        text-align: center;
-        padding: 0em;;
-    }
+   .sportsn p{
+    font-family: jw ;
+    font-size: 1.3em;
+    padding: 0.6em;
+    margin-left:1em;
+    float: right;
+    font-style: italic;
+    background-color:lightgreen;
     
-    .connav img{
-        float:right;
-      border-radius: 50%;
-      padding:1.1em;
-    }
+
+}
+.sportsn img{
+    float:right;
+    border-radius:50%;
+    padding:0em;
+    
+    
+
+}
+.sportsn li{
+    text-align: center;
+   
+}
+.sportsn a{
+    text-decoration: none;
+    font-family: ka;
+    font-size: large;
+    font-weight: normal;
+}
+.sportsn a:hover{
+    background-color:aqua;
+}
+.meritsn a{
+    text-decoration: none;
+    font-family: ka;
+    font-size: large;
+    font-weight: normal;
+}
+.meritsn li{
+    text-align: center;
+}
+.meritsn a:hover{
+    background-color: aquamarine;
+}
+.meritsn p{
+    font-family: jw ;
+    font-size: 1.3em;
+    padding: 0.6em;
+    margin-left:1em;
+    float: right;
+    font-style: italic;
+    background-color:lightsalmon;
+   
+   
+}
+.merimg{
+    float:right;
+    border-radius:50%;
+    padding:0em;
+
+    
+}
+.backn a{
+    text-decoration: none;
+    font-family: ka;
+    font-size: large;
+    font-weight: normal;
+
+}
+.backn li{
+    text-align: center;
+}
+.backn p{
+    font-family: jw ;
+    font-size: 1.3em;
+    padding: 0.6em;
+    margin-left:1em;
+    float: right;
+    font-style: italic;
+    background-color:lightblue;
+
+}
+.backn img{
+    float:right;
+    border-radius:50%;
+    padding:0em;
+}
+.backn a:hover{
+    background-color: lightgoldenrodyellow;
+}
+.entern p{
+    font-family: jw ;
+    font-size: 1.3em;
+    padding: 0.6em;
+    margin-left:1em;
+    float: right;
+    font-style: italic;
+    background-color:lightseagreen
+}
+.entern img{
+    float:right;
+    border-radius:50%;
+    padding:0em;
+}
+.entern li{
+    text-align: center;
+   
+}
+.entern a{
+    text-decoration: none;
+    font-family: ka;
+    font-size: large;
+    font-weight: normal;
+}
+.entern a:hover{
+    background-color: lightpink;
+}
+.militaryn a{
+    text-decoration: none;
+    font-family: ka;
+    font-size: large;
+    font-weight: normal;
+}
+.militaryn p{
+    font-family: jw ;
+    font-size: 1.3em;
+    padding: 0.6em;
+    margin-left:1em;
+    float: right;
+    font-style: italic;
+    background-color:yellow;
+}
+.militaryn a:hover{
+    background-color: goldenrod;
+}
+.militaryn img{
+    float:right;
+    border-radius:50%;
+    padding:0em;
+}
+.militaryn li{
+    text-align: center;
+}
     
