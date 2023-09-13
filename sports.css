@@ -1,0 +1,19 @@
+.sport li{
+    padding: 1em;
+    text-align: center;
+    text-decoration: none;
+}
+.sport a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5em;
+
+}
+.sport img{
+    padding: 1em;
+}
+.sport-bask{
+    height: 18em;
+    width: 24em;
+    border-radius: 50%;
+}
