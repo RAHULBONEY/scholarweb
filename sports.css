@@ -1,19 +1,62 @@
-.sport li{
-    padding: 1em;
+ @font-face {
+        font-family: ka;
+        src: url(Oswald-VariableFont_wght.ttf);
+        font-weight: normal;
+    }
+    @font-face {
+        font-family: jw;
+        src: url(ArchivoNarrow-VariableFont_wght.ttf);
+        font-weight: normal;
+    }
+   
+*{
+    color:white;
+    background-color: rgb(15, 13, 13);
     text-align: center;
+    font-family: ka;
+   }
+.sport ul{
+    text-align: left;
     text-decoration: none;
+    color:white;
+    margin: auto;
+    transition: all;
 }
 .sport a{
     text-decoration: none;
-    color: black;
+    color: white;
     font-size: 1.5em;
-
+    color:white;
+    text-align: left;
+    transition: all;
 }
 .sport img{
-    padding: 1em;
-}
-.sport-bask{
+    padding: 0.6em;
+    border-radius: 35%;
     height: 18em;
     width: 24em;
-    border-radius: 50%;
+    float: right;
+    background-color:black;
+    margin: 1em;
+    animation: forwards;
+    }
+.sport a:hover{
+color: aqua;
+background-color:rgba(255,255, 255, .3);
+}
+ .chess
+ {
+    float: left;
+    image-orientation: flip;
+}
+.govimg{
+    float: left;
+    margin: 2em;
+    border-radius: 45%;
+}
+.govimg img{
+    border-radius: 45%;
+    margin-bottom: 4em;
+    display: flexbox;
+    animation-direction: reverse;
 }
