@@ -1,62 +1,57 @@
- @font-face {
-        font-family: ka;
-        src: url(Oswald-VariableFont_wght.ttf);
-        font-weight: normal;
-    }
-    @font-face {
-        font-family: jw;
-        src: url(ArchivoNarrow-VariableFont_wght.ttf);
-        font-weight: normal;
-    }
-   
-*{
-    color:white;
-    background-color: rgb(15, 13, 13);
-    text-align: center;
+@font-face {
     font-family: ka;
-   }
-.sport ul{
-    text-align: left;
-    text-decoration: none;
-    color:white;
-    margin: auto;
-    transition: all;
+    src: url(Oswald-VariableFont_wght.ttf);
+    font-weight: normal;
 }
-.sport a{
-    text-decoration: none;
-    color: white;
-    font-size: 1.5em;
-    color:white;
-    text-align: left;
-    transition: all;
+@font-face {
+    font-family: jw;
+    src: url(ArchivoNarrow-VariableFont_wght.ttf);
+    font-weight: normal;
 }
-.sport img{
-    padding: 0.6em;
-    border-radius: 35%;
-    height: 18em;
-    width: 24em;
-    float: right;
-    background-color:black;
-    margin: 1em;
-    animation: forwards;
+    body{
+        background:linear-gradient(#eb3349,#f45c43);
+
     }
-.sport a:hover{
-color: aqua;
-background-color:rgba(255,255, 255, .3);
-}
- .chess
- {
-    float: left;
-    image-orientation: flip;
-}
-.govimg{
-    float: left;
-    margin: 2em;
-    border-radius: 45%;
-}
-.govimg img{
-    border-radius: 45%;
-    margin-bottom: 4em;
-    display: flexbox;
-    animation-direction: reverse;
-}
+    h1{
+        font-family: jw;
+        color: beige;
+        text-align: center;
+        letter-spacing: 2px;
+    }
+    ul{
+        list-style-type: none;
+        font-family: ka;
+        font-weight: bolder;
+        font-size: larger;
+        text-decoration: none;
+    }
+    .myimg{
+        border: black solid;
+        border-radius: 30%;
+        position: absolute;
+        top:0px;
+        left:1000px;
+    }
+    .cont{
+        text-align: right;
+        margin-top: 3px ;
+        margin-right: 100px;
+    }
+    .con{
+        text-align: left;
+        margin-top:-692px;     
+    }
+    .onlychess{
+        display: grid;
+        place-items: center;
+        margin-top: -545px;
+    }
+    ul a{
+        text-decoration: none;
+        color: black;
+        font-size: large;
+    }
+    ul a:hover{
+        background-color: yellow;
+    }
+    
