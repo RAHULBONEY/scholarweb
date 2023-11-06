@@ -2,26 +2,85 @@
 <html>
     <head>
         <title>sports</title>
-        <link rel="stylesheet" href="sports.css">
+        <style>
+         @font-face {
+    font-family: ka;
+    src: url(../fonts/Oswald-VariableFont_wght.ttf);
+    font-weight: normal;
+}
+@font-face {
+    font-family: jw;
+    src: url(../fonts/ArchivoNarrow-VariableFont_wght.ttf);
+    font-weight: normal;
+}
+    body{
+        background:rgb(23, 22, 21);
+
+    }
+    h1{
+        font-family: jw;
+        color: beige;
+        text-align: center;
+        letter-spacing: 2px;
+    }
+    ul{
+        list-style-type: none;
+        font-family: ka;
+        font-weight: bolder;
+        font-size: larger;
+        text-decoration: none;
+    }
+    .myimg{
+        border: black solid;
+        border-radius: 30%;
+        position: absolute;
+        top:0px;
+        left:1102px;
+    }
+    .cont{
+        text-align: right;
+        margin-top: 3px ;
+        margin-right: 100px;
+    }
+    .con{
+        text-align: left;
+        margin-top:-692px;     
+    }
+    .onlychess{
+        display: grid;
+        place-items: center;
+        margin-top: -545px;
+    }
+    ul a{
+        text-decoration: none;
+        color: white;
+        font-size: large;
+    }
+    ul a:hover{
+        background-color:rgb(116, 122, 122);
+    }
+       
+        </style>
+        <link rel="stylesheet" href="../css/sports.css">
         <body>
             <h1>SELECT THE SPORT CATEGORY</h1>
-            <img class="myimg" src="download (1).png">
+            <img class="myimg" src="../images/download (1).png">
             <ul>
                 <div class="cont">
-                <li><a href="scholar.html" target="_new"> FOOTBALL</a></li>
-                <img src="footballpic2.png" height="321" width="320">
-                <li><a href="scholar.html "target="_new">BASKETBALL</a></li>
-                <img src="basketball.png" height="321" width="320">
+                <li><a href="football.html" target="_new"> FOOTBALL</a></li>
+                <img src="../images/footballpic2.png" height="321" width="320">
+                <li><a href="basketball.html "target="_new">BASKETBALL</a></li>
+                <img src="../images/basketball.png" height="321" width="320">
                 </div>
                 <div class="con">
-                <li><a href="scholar.html "target="_new">CRICKET</a></li>
-                <img src="cricket.png" height="321" width="320">
+                <li><a href="cricket.html"target="_new">CRICKET</a></li>
+                <img src="../images/cricket.png" height="321" width="320">
                 <li><a href="scholar.html "target="_new">ATHLETICS</a></li>
-                <img src="indianath2.png" height="321" width="320">
+                <img src="../images/indianath2.png" height="321" width="320">
                 </div>
                 <div class="onlychess">
                 <li><a href="scholar.html "target="_new">CHESS</a></li>
-                <img src="indianchess.png"height="321" width="320">
+                <img src="../images/indianchess.png"height="321" width="320">
                 </div>
             </ul>
         </body>

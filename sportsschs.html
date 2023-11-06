@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  </head>  
+  <title>SPORTSCATEGORIES</title>
+  <style>
+    @font-face {
+            font-family: ka;
+            src: url(../fonts/Oswald-VariableFont_wght.ttf);
+            font-weight: normal;
+        }
+        @font-face {
+            font-family: jw;
+            src: url(../fonts/ArchivoNarrow-VariableFont_wght.ttf);
+            font-weight: normal;
+        }
+    *{
+        margin: 0;
+        padding: 0;
+        
+        color: #222;
+    }
+    .container{
+        width: 100%;
+        height: 100vh;
+        background-color: #222;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .swiper{
+        height: 80%;
+        width: fit-content;
+    }
+    .swiper-slide img{
+        width: 100%;
+    
+    }
+    .swiper .swiper-button-prev,.swiper-button-next{
+        color: black;
+    }
+    .head{
+        text-align: center;
+        color: black;
+        background: greenyellow;
+        font-family: ka;
+    }
+  </style>
+  <body>
+    <span class="head"><h1>SELECT SPORTS CATEGORIES</h1></span>
+    
+    <div class="container">
+       
+<div class="swiper">
+    
+    <div class="swiper-wrapper">
+      
+      <div class="swiper-slide"><a href="football.html"><img src="../images/indianfootballnew2.png" alt="football" title="Football"></a></div>
+      <div class="swiper-slide"><a href="basketball.html"><img src="../images/basketball22.png" title="Basketball"></a></div>
+      <div class="swiper-slide"><a href="chess.html"><img src="../images/indianchess22.png" title="Chess"></a></div>
+      <div class="swiper-slide"><a href="cricket.html"><img src="../images/cricket22.png" title="Cricket"></a></div>
+      <div class="swiper-slide"><a href="ath.html"><img src="../images/indianath22.png" title="Athletics"></a></div>
+      
+    </div>
+    
+    <div class="swiper-pagination"></div>
+  
+   
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  
+    
+    
+  </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+         autoplay: {
+                 delay:2000,
+                 disableOnInteraction:false,
+         },
+ 
+  loop: true,
+
+ 
+  pagination: {
+    el: '.swiper-pagination',
+    clickable :true,
+  },
+
+  
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+  
+});
+    </script>
+  </body>
+
+</html>
