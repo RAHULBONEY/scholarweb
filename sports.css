@@ -9,7 +9,7 @@
     font-weight: normal;
 }
     body{
-        background:linear-gradient(#eb3349,#f45c43);
+        background:rgb(23, 22, 21);
 
     }
     h1{
@@ -30,7 +30,7 @@
         border-radius: 30%;
         position: absolute;
         top:0px;
-        left:1000px;
+        left:1102px;
     }
     .cont{
         text-align: right;
@@ -48,10 +48,10 @@
     }
     ul a{
         text-decoration: none;
-        color: black;
+        color: white;
         font-size: large;
     }
     ul a:hover{
-        background-color: yellow;
+        background-color:rgb(116, 122, 122);
     }
     

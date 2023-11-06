@@ -9,7 +9,7 @@
     font-weight: normal;
 }
 body{
-    background-image: url(../images/footballback.png);
+    background-image: url(../images/basketballback2.png);
     background-repeat: none;
     background-attachment: fixed;
     background-position: center;
@@ -40,7 +40,7 @@ li{
     font-family: ka;
     font-size: large;
     font-weight: bold;
-    color: white;
+    color:white;
     border-color: white;
 
 }
@@ -48,7 +48,7 @@ h2{
     font-family: jw;
     font-size: large;
     font-weight: bold;
-    color: white;
+    color:white;
 }
 ol a{
     color:wheat;
@@ -60,8 +60,8 @@ ol a:hover{
 }
 .hf
 {
-    background-color:white;
-    color:black;
+    background-color:black;
+    color:white;
     font-family: jw;
     border-radius: 50%;
 }

@@ -1,15 +1,15 @@
 @font-face {
     font-family: ka;
-    src: url(../fonts/Oswald-VariableFont_wght.ttf);
+    src: url(Oswald-VariableFont_wght.ttf);
     font-weight: normal;
 }
 @font-face {
     font-family: jw;
-    src: url(../fonts/ArchivoNarrow-VariableFont_wght.ttf);
+    src: url(ArchivoNarrow-VariableFont_wght.ttf);
     font-weight: normal;
 }
 body{
-    background-image: url(../images/footballback.png);
+    background-image: url(footballback.png);
     background-repeat: none;
     background-attachment: fixed;
     background-position: center;

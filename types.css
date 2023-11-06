@@ -1,11 +1,11 @@
 @font-face {
     font-family: ka;
-    src: url(Oswald-VariableFont_wght.ttf);
+    src: url(../fonts/Oswald-VariableFont_wght.ttf);
     font-weight: normal;
 }
 @font-face {
     font-family: jw;
-    src: url(ArchivoNarrow-VariableFont_wght.ttf);
+    src: url(../fonts/ArchivoNarrow-VariableFont_wght.ttf);
     font-weight: normal;
 }
 *{
@@ -34,7 +34,7 @@
 
 
 .main-header{
-    background-color:rgba(255,255, 255, .3);
+    background-color:black;
     background-image: url("back.png");
     background-blend-mode: multiply;
     background-size: cover;
@@ -187,4 +187,14 @@
 .militaryn li{
     text-align: center;
 }
+.butt a{
+    text-decoration: none;
+    color:white;
+    padding-left: 1em;
     
+    
+}
+.butt a:hover{
+     background-color:grey;
+     
+}

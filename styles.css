@@ -1,17 +1,17 @@
  @import url('https://fonts.googleapis.com/css?family=Raleway:300,400');
  @font-face {
     font-family: myFont;
-    src: url(companyhand.ttf);
+    src: url(../fonts/companyhand.ttf);
     font-weight: normal;
  }
     @font-face {
         font-family: fa;
-        src: url(sectionhand.ttf);
+        src: url(../fonts/sectionhand.ttf);
         font-weight:normal;
     }
     @font-face{
         font-family:ja;
-        src: url(companyhand.ttf);
+        src: url(../fonts/companyhand.ttf);
         font-weight: normal;
 
     }
@@ -31,11 +31,11 @@ html,body{
     margin: 0;
 }
 .main-header{
-background-color:rgba(255,255, 255, .3);
+background-color:black;
 background-image: url("back.png");
 background-blend-mode: multiply;
 background-size: cover;
-padding bottom: 10000px;
+
 }
 .nav li{
     display: inline;
