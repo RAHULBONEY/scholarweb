@@ -1,5 +1,5 @@
  
-GOI scholarships made using css,html and JavaScript
+GOI scholarships built using css,html and JavaScript
 
 Government of India Scholarships only considere
 
